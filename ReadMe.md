@@ -84,7 +84,7 @@ try :
 except ClientError as e:
 	logging.error(e)
 ```
-See Full documentation on Uplaoding Files with BOTO3 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-uploading-files.html
+See Full documentation on Uplaoding Files with Boto3 https://boto3.amazonaws.com/v1/documentation/api/latest/guide/s3-uploading-files.html
 
 This is the basic code to upload a file to AWS S3 bucket.
 
