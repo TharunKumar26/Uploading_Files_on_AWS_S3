@@ -57,7 +57,7 @@ Now, we can perform uploading files with the code below
 ```
 const fileContent = fs.readFileSync(fileName); 
 // Setting up S3 upload parameters  
-const params = { Bucket: BUCKET_NAME, Key: 'cat.jpg', Body: fileContent }; 
+const params = { Bucket: BUCKET_NAME, Key: filename, Body: fileContent }; 
 // File name to save as in S3 
 // Uploading files to the bucket 
 s3.upload(params, function(err, data) { 
