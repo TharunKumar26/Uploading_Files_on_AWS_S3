@@ -1,5 +1,5 @@
 
-## Uploading images to AWS server with Node Js and Python
+## Uploading Files to AWS server with Node Js and Python
 
 ### On Client Side
 
